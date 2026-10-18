@@ -159,3 +159,6 @@ function gb() {
 function gd() {
 	git diff $@
 }
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
